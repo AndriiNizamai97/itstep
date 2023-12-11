@@ -1,0 +1,40 @@
+.section{
+    display: grid;
+    grid-template-areas:
+     'area8 area9 area9'
+     'area8 area10 area11'
+     'area12 area12 area13'
+
+    
+    ;
+    grid-template-columns: 1fr 2fr  2fr 1fr;
+    height: 500px;
+    gap: 10px;
+}
+
+
+
+.aside8 {
+    grid-area: area8;
+    background-color: rebeccapurple;
+}
+.aside9 {
+    grid-area: area9;
+    background-color: rgb(51, 153, 85);
+}
+.aside10 {
+    grid-area: area10;
+    background-color: tomato;
+}
+.aside11 {
+    grid-area: area11;
+    background-color: rosybrown;
+}
+.aside12 {
+    grid-area: area12;
+    background-color: gold;
+}
+.aside13 {
+    grid-area: area13;
+    background-color: saddlebrown;
+}
